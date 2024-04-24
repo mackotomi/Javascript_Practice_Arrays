@@ -1,8 +1,13 @@
 /*
-Before we jump in, it is required to know the anatomy of array
-The array is composed of Elements and Indexes and thats it.
-So for Each element that will become in array, it will have
-an index value within the array. Element == Index.
+Before we jump in, it important to be aware of The Anatomy Of An Array.
+The Array is Composed of Elements + Indexes and hats it..
+So for each element inside the array, it will automatically have
+an index value. Long story short, Element == Index.
+The element can be any datatype the javascript
+works with. In this examples i will be using only 'Strings' and
+Integers. Lastly, it is good to know, that the array in javasript
+is object, but different.. and.. Javascript array are not Associated Array,
+which means, we cant name the indexes. This means, Javascript array indexes have numeric values.
 */
 
 /*
