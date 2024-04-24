@@ -1,13 +1,13 @@
 /*
-Before we jump in, it important to be aware of The Anatomy Of An Array.
-The Array is Composed of Elements + Indexes and hats it..
-So for each element inside the array, it will automatically have
+Before we jump in, it is !Important to be aware of The Anatomy Of An Array.
+The Array is Composed of Elements + Indexes and thats it..
+So, for each element inside the array, it will automatically have
 an index value. Long story short, Element == Index.
 The element can be any datatype the javascript
 works with. In this examples i will be using only 'Strings' and
 Integers. Lastly, it is good to know, that the array in javasript
 is object, but different.. and.. Javascript array are not Associated Array,
-which means, we cant name the indexes. This means, Javascript array indexes have numeric values.
+which means, we cant name the indexes. This means, Javascript array indexes have numeric values. Also, array index stats from 0.
 */
 
 /*
@@ -98,5 +98,20 @@ But first, lets check if specific element is part of an arrayOfArmory.
 
 console.log(arrayOfArmory.includes(''));
 
+/*
+So once we know, that Element with Specific name is included / true within the array,
+how do we check its index? The asnwer is using method .indexOf() We use indexOf('dagger'); where in parameter we inlude the name of the element.
+*/
+
+console.log(arrayOfArmory);
+console.log(arrayOfArmory.indexOf('staff'));
+console.log(arrayOfArmory[7]);
+
+/*
+This will print the the index number 7 where the element string staff is located.
+*/
+
+// Array Method - Check indexOf the Element in the array.
+console.log(arrayOfArmory.indexOf('shield') + ' ' + arrayOfArmory[2]);
 
 
