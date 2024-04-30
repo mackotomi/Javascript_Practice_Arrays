@@ -114,4 +114,12 @@ This will print the the index number 7 where the element string staff is located
 // Array Method - Check indexOf the Element in the array.
 console.log(arrayOfArmory.indexOf('shield') + ' ' + arrayOfArmory[2]);
 
+// Multiple weapon of different qualities arrays.
+let normalWeapons = ["normal_weapon_1" , "normal_weapon_2" , "normal_weapon_3" , "normal_weapon_4" , "normal_weapon_5"];
+let rareWeapons = ["rare_weapon_1" , "rare_weapon_2" , "rare_weapon_3" , "rare_weapon_4" , "rare_weapon_5"];
+let uniqueWeapons = ["unique_weapon_1" , "unique_weapon_2" , "unique_weapon_3" , "unique_weapon_4" , "unique_weapon_5"];
+let legendaryWeapons = ["legendary_weapon_1" , "legendary_weapon_2" , "legendary_weapon_3" , "legendary_weapon_4" , "legendary_weapon_5"];
 
+// The .concat() will join other array to other array. Decide which of the array you want to concat with, and use the array with concat method that has the other array.
+let conctatedArray = normalWeapons.concat(rareWeapons);
+console.log(conctatedArray);
